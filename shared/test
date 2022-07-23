@@ -1,0 +1,17 @@
+[ipaservers]
+vm1.test.local ansible_ssh_user=vagrant   ansible_ssh_pass=vagrant
+
+[ipaservers:vars]
+ipaserver_domain=test.local
+ipaserver_realm=TEST.LOCAL
+ipaadmin_password=qwerty12
+ipadm_password=qwerty12
+
+[ipaclients]
+vm2.test.local ansible_ssh_user=vagrant   ansible_ssh_pass=vagrant
+
+[ipaclients:vars]
+ipaadmin_password=qwerty12
+ipaclient_domain=test.local
+ipaserver_realm=TEST.LOCAL
+ipaservers=vm1.test.local
