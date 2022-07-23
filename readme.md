@@ -9,7 +9,7 @@ Usage
 
 1. clone current repo
 2. cd to the repo folder
-3. move downloaded bmbox files to repo folder
+3. move downloaded vmbox files to repo folder
 4. execute 'vagrant up'
 
 Check access to freeipa web UI from host
