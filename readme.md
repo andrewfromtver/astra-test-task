@@ -9,16 +9,17 @@ Usage
 
 1. clone current repo
 2. cd to the repo folder
-3. execute 'vagrant up'
+3. move downloaded bmbox files to repo folder
+4. execute 'vagrant up'
 
-Check access to freeipa web UI from host by
+Check access to freeipa web UI from host
 
 1. http://localhost:8080 (will redirect to https://vm1.test.local)
 
-Check access to foreman web UI from host by
+Check access to foreman web UI from host
 
 1. https://localhost:8081
 
-Chech access to zabbix
+Chech access to zabbix web UI from host
 
 1. http://localhost:8082
