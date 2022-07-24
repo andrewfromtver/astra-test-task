@@ -20,6 +20,6 @@ Check access to foreman web UI from host
 
 1. https://localhost:8081
 
-Chech access to zabbix web UI from host
+Check access to zabbix web UI from host
 
 1. http://localhost:8082
